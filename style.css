@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.container {
+    max-width: 1330px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.active {
+    width: 40% !important;
+    z-index: 20 !important;
+}
+
+.menu-hide {
+    display: inline-block !important;
+}
+section#sidebar{
+    width: 20%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+    height: 100%;
+    transition: all is ease;
+    z-index: 99;
+}
+
+.sidebar-brand {
+    padding: 50px 40px;
+}
+
+.sidebar-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 20px 40px;
+}
+
+.sidebar-menu{
+    margin-top: 50px;
+}
+.sidebar-menu li {
+    transition: all 0.5s ease;
+}
+
+.sidebar-menu li:hover{
+    background-color: cornflowerblue
+}
+
+.sidebar-menu ul li span {
+    padding-left: 10px;
+
+}
+section#main-content {
+    width: 80%;
+    float: right;
+    
+}
+
+header.main-header {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #bbb;
+    width: 100%;
+}
+
+.header-left {
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+.header-left img{
+    width: 13%;
+    float: left;
+    padding-right: 10px;
+}
+
+.header-left p{
+    color: #bbb;
+}
+
+.card-box {
+    float:left;
+    width: 95%;
+    margin-top: 100px;
+    background-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 45px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.pro-table {
+    width: 60%;
+    float: left;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #bbb;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cus-table {
+    float: right;
+    width: 35%;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #bbb;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.content-pro-par {
+    margin: 4% 2% 0% 2%;
+}
+
+.recent-pro {
+    margin-bottom: 20px;
+}
+
+.td-cnt-i i{
+    color: #fd5c62;
+    padding: 10px;
+}
+
+@media screen and (max-width : 768px){
+
+    .card-box {
+        float: none;
+        width: 100%;
+        margin: 0px auto 20px auto;
+        padding: 10px 20px;
+    }
+
+    .main-content-info {
+        margin-top: 130px;
+    }
+    
+    .pro-table {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cus-table {
+        float: none;
+        width: 100%;
+        margin: 20px auto;
+
+    }
+
+    .header-left{
+        float: left;
+        width: 50%;
+    }
+
+    .header-left h2 {
+        font-size: 20px;
+    }
+
+    section#sidebar {
+        width: 16%;
+    }
+
+    section#main-content {
+        width: 84%;
+    }
+
+    .sidebar-menu ul li a {
+        padding: 10px 22px;
+    }
+
+    .sidebar-menu ul li span {
+        display: none;
+    }
+
+    .sidebar-brand span {
+        display: none;
+
+    }.sidebar-brand {
+        padding: 20px 0 20px 20px;
+    }
+}
